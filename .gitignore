@@ -85,3 +85,4 @@ MX_Project_Settings/
 *.swo
 *.itm
 *.trc
+STM32F469_DISCO/Debug/
