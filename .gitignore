@@ -1,0 +1,87 @@
+###############################################################################
+# STM32 CubeIDE / Eclipse C/C++ .gitignore
+# Autor: Samuel Rocha
+# Projeto: Diesel Sensor / STM32
+# Última atualização: 2025-10-10
+###############################################################################
+
+# === Diretórios de build e compilação ===
+/Debug/
+/Release/
+/build/
+/out/
+/bin/
+/obj/
+
+# === Arquivos temporários do compilador e IDE ===
+*.o
+*.elf
+*.map
+*.lst
+*.hex
+*.bin
+*.d
+*.su
+*.gcno
+*.gcda
+*.gch
+
+# === STM32CubeMX autogerado ===
+*.launch
+*.tmp
+*.bak
+*.swp
+*.swo
+*.svd
+*.ioc-backup
+
+# === Logs e saídas ===
+*.log
+*.trace
+*.txt~
+
+# === Arquivos do sistema operacional ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# === Backup e cache de editores ===
+*~
+*.autosave
+*.bak
+*.orig
+*.rej
+*.tmp
+*.cache
+*.user
+*.workspace
+
+# === VS Code e outros editores (opcional) ===
+.vscode/
+*.code-workspace
+
+# === Dependências externas locais ===
+/Drivers/CMSIS/Documentation/
+/Middlewares/Third_Party/FatFs/doc/
+/Middlewares/Third_Party/LwIP/doc/
+
+# === Arquivos gerados por ferramentas de análise ===
+*.gcov
+*.gcda
+*.gcno
+*.gcov.out
+
+# === Arquivos temporários do Git ou merges ===
+*.merge_file_*
+*.orig
+
+# === Ignorar exportações do CubeMX ===
+CubeMX_Config/
+MX_Device_Configuration/
+MX_Project_Settings/
+
+# === Ignorar resultados de debug SWO / ITM ===
+*.swo
+*.itm
+*.trc
